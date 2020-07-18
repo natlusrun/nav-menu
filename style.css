@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+}
+
+.wrapper {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+
+}
+
+.wrapper a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-shadow: 2px 2px 9px #000;
+}
+
+.wrapper a:hover {
+    color: #fff;
+    background-color: #C43210;
+
+    box-shadow: 0 0 5px #C43210,
+
+        0 0 25px #C43210,
+        0 0 50px #C43210,
+        0 0 100px #C43210;
+}
